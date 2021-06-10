@@ -7,7 +7,7 @@ for i in range(1, tick_s+1):
     tick_age = int(input("> "))
     if tick_age < 18:
         print("Стоимость билета", i, "-го посетителя - 0 руб.")
-    elif 18 >= tick_age < 25:
+    elif 18 <= tick_age < 25:
         print("Стоимость билета", i, "-го посетителя - 990 руб.")
         sum_tick += 990
     else:
